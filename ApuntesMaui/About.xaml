@@ -6,6 +6,8 @@
 
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="10">
+
+            <!-- Texto con saltos de línea -->
             <Label 
                 Text="Soy un chico de 20 años, apasionado por los deportes, en especial por el futbol.\n\nSoy hincha a muerte de la Liga de Quito, me gusta la programación y todo lo relacionado a la ingeniería de software."
                 VerticalOptions="CenterAndExpand" 
@@ -13,7 +15,12 @@
                 LineBreakMode="WordWrap" 
                 TextColor="White" 
                 FontSize="16" />
-        </VerticalStackLayout>
+
+            <!-- Imagen meme.jpg -->
+            <Image Source="meme.jpg"
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />
+              </VerticalStackLayout>
     </ScrollView>
 
 </ContentPage>
