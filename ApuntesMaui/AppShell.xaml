@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ApuntesMaui.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ApuntesMaui"
+    Title="ApuntesMaui">
+
+    <!-- Flyout Item que contiene Tabs -->
+    <FlyoutItem Title="Pagina 1" Icon="dotnet_bot.png">
+        <Tab Title="Pagina 1" Icon="dotnet_bot.png">
+            <ShellContent
+                Title="Pagina 1"
+                ContentTemplate="{DataTemplate local:Pagina1}"
+                Route="Pagina1" />
+        </Tab>
+        <Tab Title="Pagina 2" Icon="dotnet_bot.png">
+            <ShellContent
+                Title="Pagina 2"
+                ContentTemplate="{DataTemplate local:Pagina2}"
+                Route="Pagina2" />
+        </Tab>
+        <Tab Title="Pagina 3" Icon="dotnet_bot.png">
+            <ShellContent
+                Title="Pagina 3"
+                ContentTemplate="{DataTemplate local:Pagina3}"
+                Route="Pagina3" />
+        </Tab>
+        <Tab Title="Pagina 4" Icon="dotnet_bot.png">
+            <ShellContent
+                Title="Pagina 4"
+                ContentTemplate="{DataTemplate local:Pagina4}"
+                Route="Pagina4" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Pagina 2" Icon="dotnet_bot.png">
+        <Tab Title="Pagina 1" Icon="dotnet_bot.png">
+            <ShellContent
+               Title="Pagina 1"
+               ContentTemplate="{DataTemplate local:Pagina1}"
+               Route="Pagina1" />
+        </Tab>
+        <Tab Title="Pagina 2" Icon="dotnet_bot.png">
+            <ShellContent
+               Title="Pagina 2"
+               ContentTemplate="{DataTemplate local:Pagina2}"
+               Route="Pagina2" />
+        </Tab>
+        <Tab Title="Pagina 3" Icon="dotnet_bot.png">
+            <ShellContent
+               Title="Pagina 3"
+               ContentTemplate="{DataTemplate local:Pagina3}"
+               Route="Pagina3" />
+        </Tab>
+        <Tab Title="Pagina 4" Icon="dotnet_bot.png">
+            <ShellContent
+               Title="Pagina 4"
+               ContentTemplate="{DataTemplate local:Pagina4}"
+               Route="Pagina4" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Pagina 3" Icon="dotnet_bot.png">
+        <Tab Title="Pagina 1" Icon="dotnet_bot.png">
+            <ShellContent
+               Title="Pagina 1"
+               ContentTemplate="{DataTemplate local:Pagina1}"
+               Route="Pagina1" />
+        </Tab>
+        <Tab Title="Pagina 2" Icon="dotnet_bot.png">
+            <ShellContent
+               Title="Pagina 2"
+               ContentTemplate="{DataTemplate local:Pagina2}"
+               Route="Pagina2" />
+        </Tab>
+        <Tab Title="Pagina 3" Icon="dotnet_bot.png">
+            <ShellContent
+               Title="Pagina 3"
+               ContentTemplate="{DataTemplate local:Pagina3}"
+               Route="Pagina3" />
+        </Tab>
+        <Tab Title="Pagina 4" Icon="dotnet_bot.png">
+            <ShellContent
+               Title="Pagina 4"
+               ContentTemplate="{DataTemplate local:Pagina4}"
+               Route="Pagina4" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Pagina 4" Icon="dotnet_bot.png">
+        <Tab Title="Pagina 1" Icon="dotnet_bot.png">
+            <ShellContent
+              Title="Pagina 1"
+              ContentTemplate="{DataTemplate local:Pagina1}"
+              Route="Pagina1" />
+        </Tab>
+        <Tab Title="Pagina 2" Icon="dotnet_bot.png">.
+            <ShellContent
+              Title="Pagina 2"
+              ContentTemplate="{DataTemplate local:Pagina2}"
+              Route="Pagina2" />
+        </Tab>
+        <Tab Title="Pagina 3" Icon="dotnet_bot.png">
+            <ShellContent
+              Title="Pagina 3"
+              ContentTemplate="{DataTemplate local:Pagina3}"
+              Route="Pagina3" />
+        </Tab>
+        <Tab Title="Pagina 4" Icon="dotnet_bot.png">
+            <ShellContent
+              Title="Pagina 4"
+              ContentTemplate="{DataTemplate local:Pagina4}"
+              Route="Pagina4" />
+        </Tab>
+    </FlyoutItem>
+
+
+
+
+</Shell>
