@@ -6,7 +6,7 @@
     xmlns:local="clr-namespace:ApuntesMaui"
     Title="ApuntesMaui">
 
-    <!-- Flyout Item que contiene Tabs -->
+    
     <FlyoutItem Title="Pagina 1" Icon="dotnet_bot.png">
         <Tab Title="Pagina 1" Icon="dotnet_bot.png">
             <ShellContent
